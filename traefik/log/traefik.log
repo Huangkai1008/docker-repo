@@ -1,0 +1,30 @@
+{"level":"info","msg":"Traefik version 2.6.3 built on 2022-03-29T13:09:27Z","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"Starting provider aggregator.ProviderAggregator","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"Starting provider *file.Provider","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"Starting provider *traefik.Provider","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"Starting provider *acme.ChallengeTLSALPN","time":"2022-04-26T08:50:53Z"}
+{"level":"info","msg":"I have to go...","time":"2022-04-26T08:51:22Z"}
+{"level":"info","msg":"Stopping server gracefully","time":"2022-04-26T08:51:22Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:5000: use of closed network connection","time":"2022-04-26T08:51:22Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-04-26T08:51:22Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:5000: use of closed network connection","time":"2022-04-26T08:51:22Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-04-26T08:51:22Z"}
+{"level":"info","msg":"Traefik version 2.6.3 built on 2022-03-29T13:09:27Z","time":"2022-04-26T08:53:28Z"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n","time":"2022-04-26T08:53:28Z"}
+{"level":"info","msg":"Starting provider aggregator.ProviderAggregator","time":"2022-04-26T08:53:28Z"}
+{"level":"info","msg":"Starting provider *file.Provider","time":"2022-04-26T08:53:28Z"}
+{"level":"info","msg":"Starting provider *traefik.Provider","time":"2022-04-26T08:53:28Z"}
+{"level":"info","msg":"Starting provider *acme.ChallengeTLSALPN","time":"2022-04-26T08:53:28Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-04T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-05T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-06T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-07T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-08T08:53:32Z"}
+{"level":"warning","msg":"Error checking new version: Get \"https://update.traefik.io/repos/traefik/traefik/releases\": dial tcp: lookup update.traefik.io on 127.0.0.11:53: read udp 127.0.0.1:59916-\u003e127.0.0.11:53: i/o timeout","time":"2022-05-09T08:53:38Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-10T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-11T08:53:34Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-12T08:53:31Z"}
+{"level":"warning","msg":"A new release has been found: 2.6.6. Please consider updating.","time":"2022-05-13T08:53:31Z"}
+{"level":"warning","msg":"Error checking new version: Get \"https://update.traefik.io/repos/traefik/traefik/releases\": dial tcp: lookup update.traefik.io on 127.0.0.11:53: read udp 127.0.0.1:35212-\u003e127.0.0.11:53: i/o timeout","time":"2022-05-14T08:53:38Z"}
+{"level":"warning","msg":"Error checking new version: Get \"https://update.traefik.io/repos/traefik/traefik/releases\": dial tcp: lookup update.traefik.io on 127.0.0.11:53: read udp 127.0.0.1:54478-\u003e127.0.0.11:53: i/o timeout","time":"2022-05-15T08:53:38Z"}

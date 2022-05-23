@@ -1,0 +1,17 @@
+api:
+  insecure: true
+providers:
+  file:
+    directory: "/etc/dynamic/conf"
+entryPoints:
+  web:
+    address: ":5000"
+log:
+  filePath: "/var/log/traefik.log"
+  format: json
+  level: INFO
+accessLog:
+  filePath: "/var/log/access.log"
+
+
+

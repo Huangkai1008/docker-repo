@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  pypi-server:
+    image: pypiserver/pypiserver:latest
+    container_name: pypi
+    restart: always
+    environment:
+      - SET_CONTAINER_TIMEZONE=true
+      - CONTAINER_TIMEZONE=Asia/Shanghai
+    command: -P . -a . -o packages
+    volumes:
+      - /srv/pypi/packages:/data/packages
+    ports:
+      - '8083:8080'

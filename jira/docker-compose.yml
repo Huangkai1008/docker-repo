@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  jira:
+    user: '2' 
+    image: cptactionhank/atlassian-jira
+    container_name: jira
+    restart: always
+    ports:
+      - "9271:8080"
+    volumes:
+      - /srv/jira:/var/atlassian/jira
+      - /srv/jira:/opt/atlassian/jira/logs
+
+

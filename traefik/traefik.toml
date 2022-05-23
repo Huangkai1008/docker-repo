@@ -1,0 +1,10 @@
+[api]
+  insecure = true
+
+[providers.consulCatalog]
+  refreshInterval = "500ms"
+  exposedByDefault = true
+
+ [providers.consulCatalog.endpoint]
+    address = "172.17.0.1:8500"
+

@@ -1,0 +1,21 @@
+http:
+  routers:
+    routerAccount:
+      entryPoints:
+        - web
+      service: account-service
+      rule: PathPrefix(`/api/v1/accounts`)
+    routerStorage:
+      entryPoints:
+        - web
+      service: storage-service
+      rule: PathPrefix(`/api/v1/storage`)
+  services:
+    account-service:
+       loadBalancer:
+         servers:
+           - url: "http://192.168.30.54:5001"
+    storage-service:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.30.54:5002"       

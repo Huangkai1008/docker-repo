@@ -1,0 +1,18 @@
+version: '3'
+    # 
+
+services:
+  reverse-proxy:
+    # The official v2 Traefik docker image
+    image: traefik:v2.6
+    command: --api.insecure=true -c traefik.toml
+    ports:
+      # The HTTP port
+      - "81:80"
+      # The Web UI (enabled by --api.insecure=true)
+      - "8080:8080"
+      - "5000:5000"
+    volumes:
+      - ${PWD}/traefik.yml:/traefik.yml   
+      - ${PWD}/dynamic_conf.yml:/etc/dynamic/conf/dynamic_conf.yml
+      - ${PWD}/log:/var/log
